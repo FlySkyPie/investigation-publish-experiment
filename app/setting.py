@@ -7,6 +7,7 @@ __all__ = ["settings"]
 
 class Settings(BaseSettings):
     trilium_url: str = Field()
+    trilium_token: str = Field(default="")
 
 
 settings = Settings()
