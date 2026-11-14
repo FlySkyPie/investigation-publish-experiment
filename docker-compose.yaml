@@ -1,0 +1,10 @@
+services:
+  trilium:
+    image: docker.io/triliumnext/trilium:v0.106.0
+    restart: unless-stopped
+    ports:
+      - 4481:8080
+    volumes:
+      - ./data/trilium:/home/node/trilium-data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
