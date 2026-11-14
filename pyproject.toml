@@ -17,3 +17,6 @@ distribution = false
 [tool.pdm.scripts]
 start.cmd="python -m app.download"
 start.env_file=".env"
+
+upload.cmd="python -m app.upload"
+upload.env_file=".env"
