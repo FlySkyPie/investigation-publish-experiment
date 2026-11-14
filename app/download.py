@@ -65,7 +65,7 @@ def _describe_error(response: requests.Response) -> str:
 
     return f"export failed with HTTP {response.status_code} {response.reason}"
 
-
+# TODO also decompress the zip file
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="Export a note subtree from Trilium through ETAPI."
