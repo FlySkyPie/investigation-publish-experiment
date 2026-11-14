@@ -10,7 +10,7 @@ __all__ = ["export_note_subtree", "main"]
 
 EXPORT_FORMATS = ("html", "markdown", "share")
 DEFAULT_NOTE_ID = "root"
-DEFAULT_FORMAT = "html"
+DEFAULT_FORMAT = "share"
 DEFAULT_OUTPUT_DIR = Path("downloads")
 DEFAULT_TIMEOUT = 300.0
 
