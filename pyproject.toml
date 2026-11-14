@@ -23,3 +23,6 @@ upload.env_file=".env"
 
 patch.cmd="python -m app.patch_export"
 patch.env_file=".env"
+
+rss.cmd="python -m app.rss"
+rss.env_file=".env"
