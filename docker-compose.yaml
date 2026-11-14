@@ -4,7 +4,35 @@ services:
     restart: unless-stopped
     ports:
       - 4481:8080
+    environment:
+      # Read by the Trilium server itself. When true it disables authentication
+      # entirely (no login, no password, and the set-password screen is skipped).
+      # Set TRILIUM_NO_AUTHENTICATION=true in .env to enable it; leave it false
+      # and set TRILIUM_PASSWORD instead to run with a password.
+      TRILIUM_GENERAL_NOAUTHENTICATION: ${TRILIUM_NO_AUTHENTICATION:-true}
     volumes:
       - ./data/trilium:/home/node/trilium-data
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8080/api/setup/status"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+      start_period: 30s
+
+  trilium-init:
+    image: docker.io/curlimages/curl:8.19.0
+    restart: "no"
+    depends_on:
+      trilium:
+        condition: service_healthy
+    environment:
+      TRILIUM_URL: http://trilium:8080
+      TRILIUM_PASSWORD: ${TRILIUM_PASSWORD:-}
+      TRILIUM_NO_AUTHENTICATION: ${TRILIUM_NO_AUTHENTICATION:-true}
+      TRILIUM_LOCALE: ${TRILIUM_LOCALE:-en}
+      TRILIUM_SKIP_DEMO_DB: ${TRILIUM_SKIP_DEMO_DB:-true}
+    entrypoint: ["/bin/sh", "/init/init-trilium.sh"]
+    volumes:
+      - ./init/init-trilium.sh:/init/init-trilium.sh:ro
