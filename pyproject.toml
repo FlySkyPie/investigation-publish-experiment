@@ -1,5 +1,5 @@
 [project]
-name = "2026-11-14_trilium-playground-2"
+name = "investigation-publish-experiment"
 version = "0.1.0"
 description = "Default template for PDM package"
 authors = [{ name = "Wei Ji (FlySkyPie)", email = "c445dj544@gmail.com" }]
