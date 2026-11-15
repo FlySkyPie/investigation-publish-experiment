@@ -33,3 +33,16 @@ The concept of project Dregarnuhr is create a Feed flow as alternatives for Olig
 Most SSG solution already support RSS, but the problem is that most SSG is build static website from text files, it's not design for the case of microblog: highly producing and highly consuming, the performance is limited.
 
 The reason Trilium been selected, because it's using database to store notes, and have export feature can create decent html (static website), expecting it have more optimization on the process.
+
+## Licensing
+
+This project is [REUSE](https://reuse.software)-compliant. Run `reuse lint` to
+verify.
+
+Everything authored for this project is licensed `MIT`. The following files are
+marked `LicenseRef-StatusUndetermined`; see
+[`LICENSES/LicenseRef-StatusUndetermined.txt`](LICENSES/LicenseRef-StatusUndetermined.txt)
+for what that means.
+
+- `researches/**`
+- `docs/00_Dregarnuhr_logo.svg`

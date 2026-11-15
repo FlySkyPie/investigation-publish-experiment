@@ -6,12 +6,15 @@ SPDX-FileCopyrightText = "MIT"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
-path = "researches/**"                  # Synthesis data from the Internet.
+path = "researches/**"                  # Research output synthesised from Internet sources.
+precedence = "override"
 SPDX-FileCopyrightText = "NOASSERTION"
-SPDX-License-Identifier = "NOASSERTION"
-
+SPDX-License-Identifier = "LicenseRef-StatusUndetermined"
+SPDX-FileComment = "Research notes compiled from third-party sources retrieved from the Internet. The licensing status of the underlying material is undetermined; no licence is asserted by the distributor."
 
 [[annotations]]
 path = "docs/00_Dregarnuhr_logo.svg"    # Modified from Gemini generated content.
+precedence = "override"
 SPDX-FileCopyrightText = "NOASSERTION"
-SPDX-License-Identifier = "NOASSERTION"
+SPDX-License-Identifier = "LicenseRef-StatusUndetermined"
+SPDX-FileComment = "Artwork modified from third-party generated content. The licensing status is undetermined; no licence is asserted by the distributor."
