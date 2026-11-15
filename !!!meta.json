@@ -39,6 +39,23 @@
 				},
 				{
 					"isClone": false,
+					"noteId": "nPVksC4tobKa",
+					"notePath": [
+						"root",
+						"nPVksC4tobKa"
+					],
+					"title": "00745_trilium-html-export-base-url",
+					"notePosition": 10,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"attributes": [],
+					"dataFileName": "00745_trilium-html-export-base-url.html",
+					"attachments": []
+				},
+				{
+					"isClone": false,
 					"noteId": "RIMVI4Hk0Yzb",
 					"notePath": [
 						"root",
@@ -52,6 +69,23 @@
 					"mime": "text/x-markdown",
 					"attributes": [],
 					"dataFileName": "00002_us-startup-vc-ecosystem-zh.html",
+					"attachments": []
+				},
+				{
+					"isClone": false,
+					"noteId": "34JxX4hItNA9",
+					"notePath": [
+						"root",
+						"34JxX4hItNA9"
+					],
+					"title": "00746_really-simple-syndication",
+					"notePosition": 20,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"attributes": [],
+					"dataFileName": "00746_really-simple-syndication.html",
 					"attachments": []
 				},
 				{
@@ -73,6 +107,23 @@
 				},
 				{
 					"isClone": false,
+					"noteId": "bI9GhWlkKHqw",
+					"notePath": [
+						"root",
+						"bI9GhWlkKHqw"
+					],
+					"title": "00747_python-xml-generation-methods",
+					"notePosition": 30,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"attributes": [],
+					"dataFileName": "00747_python-xml-generation-methods.html",
+					"attachments": []
+				},
+				{
+					"isClone": false,
 					"noteId": "1sdMyKiCPXOm",
 					"notePath": [
 						"root",
@@ -86,6 +137,23 @@
 					"mime": "text/x-markdown",
 					"attributes": [],
 					"dataFileName": "00004_biomes-game-background-zh.html",
+					"attachments": []
+				},
+				{
+					"isClone": false,
+					"noteId": "TbZBkHB8W8wj",
+					"notePath": [
+						"root",
+						"TbZBkHB8W8wj"
+					],
+					"title": "00748_rss-feed-content-completeness",
+					"notePosition": 40,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"attributes": [],
+					"dataFileName": "00748_rss-feed-content-completeness.html",
 					"attachments": []
 				},
 				{
@@ -107,6 +175,23 @@
 				},
 				{
 					"isClone": false,
+					"noteId": "QRo7hpUsrYpz",
+					"notePath": [
+						"root",
+						"QRo7hpUsrYpz"
+					],
+					"title": "00749_newsblur-docker-compose-setup",
+					"notePosition": 50,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"attributes": [],
+					"dataFileName": "00749_newsblur-docker-compose-setup.html",
+					"attachments": []
+				},
+				{
+					"isClone": false,
 					"noteId": "xCd3M70DUYRg",
 					"notePath": [
 						"root",
@@ -120,6 +205,23 @@
 					"mime": "text/x-markdown",
 					"attributes": [],
 					"dataFileName": "00006_nanocoder-background.html",
+					"attachments": []
+				},
+				{
+					"isClone": false,
+					"noteId": "WWU0wFhtSvz0",
+					"notePath": [
+						"root",
+						"WWU0wFhtSvz0"
+					],
+					"title": "00750_newsblur-docker-compose-minimal",
+					"notePosition": 60,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"attributes": [],
+					"dataFileName": "00750_newsblur-docker-compose-minimal.html",
 					"attachments": []
 				},
 				{
@@ -141,6 +243,23 @@
 				},
 				{
 					"isClone": false,
+					"noteId": "iTB8gNnJvqL0",
+					"notePath": [
+						"root",
+						"iTB8gNnJvqL0"
+					],
+					"title": "00751_foss-rss-reader-alternatives",
+					"notePosition": 70,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"attributes": [],
+					"dataFileName": "00751_foss-rss-reader-alternatives.html",
+					"attachments": []
+				},
+				{
+					"isClone": false,
 					"noteId": "JPSThWe7EKHH",
 					"notePath": [
 						"root",
@@ -154,6 +273,23 @@
 					"mime": "text/x-markdown",
 					"attributes": [],
 					"dataFileName": "00008_nono-credential-sandbox.html",
+					"attachments": []
+				},
+				{
+					"isClone": false,
+					"noteId": "NfZZJKLkuvA6",
+					"notePath": [
+						"root",
+						"NfZZJKLkuvA6"
+					],
+					"title": "00752_modern-ui-self-hosted-feed-readers",
+					"notePosition": 80,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"attributes": [],
+					"dataFileName": "00752_modern-ui-self-hosted-feed-readers.html",
 					"attachments": []
 				},
 				{
@@ -175,6 +311,23 @@
 				},
 				{
 					"isClone": false,
+					"noteId": "NUfeDU0a8ZhM",
+					"notePath": [
+						"root",
+						"NUfeDU0a8ZhM"
+					],
+					"title": "00753_reuse-unasserted-licensing",
+					"notePosition": 90,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"attributes": [],
+					"dataFileName": "00753_reuse-unasserted-licensing.html",
+					"attachments": []
+				},
+				{
+					"isClone": false,
 					"noteId": "0ha1WO15cSV8",
 					"notePath": [
 						"root",
@@ -188,6 +341,23 @@
 					"mime": "text/x-markdown",
 					"attributes": [],
 					"dataFileName": "00010_nono-agent-filesystem-sandbox-zh.html",
+					"attachments": []
+				},
+				{
+					"isClone": false,
+					"noteId": "qmpvaSgQKfLI",
+					"notePath": [
+						"root",
+						"qmpvaSgQKfLI"
+					],
+					"title": "00754_js-event-loop-vs-coroutines",
+					"notePosition": 100,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"attributes": [],
+					"dataFileName": "00754_js-event-loop-vs-coroutines.html",
 					"attachments": []
 				},
 				{
@@ -209,6 +379,23 @@
 				},
 				{
 					"isClone": false,
+					"noteId": "Wwlh3kzrOCha",
+					"notePath": [
+						"root",
+						"Wwlh3kzrOCha"
+					],
+					"title": "00755_room-fragrance-vs-activated-carbon-air-purifier",
+					"notePosition": 110,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"attributes": [],
+					"dataFileName": "00755_room-fragrance-vs-activated-carbon-air-purifier.html",
+					"attachments": []
+				},
+				{
+					"isClone": false,
 					"noteId": "YEah6A06LvzP",
 					"notePath": [
 						"root",
@@ -222,6 +409,23 @@
 					"mime": "text/x-markdown",
 					"attributes": [],
 					"dataFileName": "00012_search-engine-code-benchmark-zh.html",
+					"attachments": []
+				},
+				{
+					"isClone": false,
+					"noteId": "cZcS4PfXXD1r",
+					"notePath": [
+						"root",
+						"cZcS4PfXXD1r"
+					],
+					"title": "00756_frontend-docker-runtime-configuration",
+					"notePosition": 120,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"attributes": [],
+					"dataFileName": "00756_frontend-docker-runtime-configuration.html",
 					"attachments": []
 				},
 				{
