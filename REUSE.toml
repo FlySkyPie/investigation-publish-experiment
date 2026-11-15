@@ -1,0 +1,17 @@
+version = 1
+
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "MIT"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "researches/**"                  # Synthesis data from the Internet.
+SPDX-FileCopyrightText = "NOASSERTION"
+SPDX-License-Identifier = "NOASSERTION"
+
+
+[[annotations]]
+path = "docs/00_Dregarnuhr_logo.svg"    # Modified from Gemini generated content.
+SPDX-FileCopyrightText = "NOASSERTION"
+SPDX-License-Identifier = "NOASSERTION"
