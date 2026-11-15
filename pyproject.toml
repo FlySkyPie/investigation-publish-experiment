@@ -2,10 +2,13 @@
 name = "2026-11-14_trilium-playground-2"
 version = "0.1.0"
 description = "Default template for PDM package"
-authors = [
-    {name = "Wei Ji (FlySkyPie)",email = "c445dj544@gmail.com"},
+authors = [{ name = "Wei Ji (FlySkyPie)", email = "c445dj544@gmail.com" }]
+dependencies = [
+    "pydantic>=2.14.3",
+    "pydantic-settings>=2.16.3",
+    "requests>=2.34.2",
+    "lxml>=6.1.3",
 ]
-dependencies = ["pydantic>=2.14.3", "pydantic-settings>=2.16.3", "requests>=2.34.2", "lxml>=6.1.3"]
 requires-python = "==3.12.*"
 readme = "README.md"
 license = "MIT"
@@ -15,14 +18,10 @@ license = "MIT"
 distribution = false
 
 [tool.pdm.scripts]
-start.cmd="python -m app.download"
-start.env_file=".env"
+start.composite = ["upload", "download", "patch", "rss"]
+start.env_file = ".env"
 
-upload.cmd="python -m app.upload"
-upload.env_file=".env"
-
-patch.cmd="python -m app.patch_export"
-patch.env_file=".env"
-
-rss.cmd="python -m app.rss"
-rss.env_file=".env"
+upload.cmd = "python -m app.upload"
+download.cmd = "python -m app.download"
+patch.cmd = "python -m app.patch_export"
+rss.cmd = "python -m app.rss"
